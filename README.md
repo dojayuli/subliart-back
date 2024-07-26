@@ -1,4 +1,4 @@
 # webstore-html
 Empiezo a crear mi tienda online usando HTML, CSS y Javascript. | UtilAPIs
 
-![preview img](/)
+![preview img](/public/images/subliartweb.jpg)
