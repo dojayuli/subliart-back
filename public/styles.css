@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@400;500&display=swap");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0px;
+    background-color: aliceblue;
+    font-family: Poppins, cursive;
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px 20px;
+}
+
+.page-nav {
+    background-color: #6644fa;
+    padding: 10px;
+    position: relative;
+}
+
+.page-nav h1 {
+    margin: 10px;
+    font-family: 'Nerko One';
+}
+
+.button-checkout{
+    background-color: white;
+    color: black;
+    border: 2px solid #007BFF; /* Blue */
+    transition-duration:  0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    margin-bottom: 10px; 
+    padding: 10px 15px;
+}
+
+.button-checkout:hover {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 20px;
+    padding: 20px 18px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: rgb(213, 191, 219);
+    border-radius: 20px;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img {
+    width: 300px;
+    height: 300px;
+    
+}
+
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.product-container h3{
+    text-align: center;
+}
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 3px solid #6644fa; /* Green */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add:hover {
+    background-color: #6644fa; /* Green */
+    border: 3px solid #ffff;
+    color: #ffff;
+}
+
+.button-add.disabled {
+    background-color: white;
+    color: black;
+    border: 3px solid #4b4b4b; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add.disabled:hover {
+    background-color: #4b4b4b; 
+    border: 3px solid #ffff;
+    color: #ffff;
+}
